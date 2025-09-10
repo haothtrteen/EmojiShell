@@ -43,6 +43,13 @@ c$(🐚)1$(☕)2$(🌐)  b$(📡)$(🔍)$(🚪)$(💻)  |  $(💻)
 
 🚀 快速上手
 
+需要安装zsh或ksh终端环境
+`sudo apt update && sudo apt install zsh`
+并更改加密后的脚本对应的shebang标记后执行
+‘#!/usr/bin/env zsh’ 将此句加于脚本第一行
+
+如果您为ash终端环境理论可以直接运行
+
 # 安装依赖
 git clone https://github.com/haothtrteen/EmojiShell.git
 cd EmojiShell && chmod +x install.sh
