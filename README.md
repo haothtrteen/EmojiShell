@@ -50,6 +50,21 @@ c$(🐚)1$(☕)2$(🌐)  b$(📡)$(🔍)$(🚪)$(💻)  |  $(💻)
 
 如果您为ash终端环境理论可以直接运行
 
+- 实例输出
+  
+```
+thirteen@DESKTOP:/mnt/e/protect$ sh protected_example.sh
+protected_example.sh: line 2: `🍒🎋🌍🍎🍒🚁🌛🐸🐸💞🍒💚': not a valid identifier
+thirteen@DESKTOP:/mnt/e/protect$ zsh protected_example.sh
+protected_example.sh:12: command not found: DATE=20250910
+开始备份数据库 [admin@192.168.1.100] ...
+备份完成！文件保存路径：./mnt/backup/
+测试字符串：This is a test string for encryption verification.
+执行敏感操作：删除7天前的备份...
+thirteen@DESKTOP:/mnt/e/protect$
+```
+可以看到需要非bash环境运行（目前必须）
+
 # 安装依赖
 git clone https://github.com/haothtrteen/EmojiShell.git
 cd EmojiShell && chmod +x install.sh
